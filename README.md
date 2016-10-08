@@ -12,16 +12,12 @@ Install homebrew, follow prompts within terminal
     
 ## Package installations
 
-Install packages (first run through requires sudo so do one package before any scripted installs)
+Install packages 
 
-brew install vim
-brew install git
+    bash -c "$(curl -fsSL https://raw.githubusercontent.com/greenbrian/xy.violator-467f46/master/setup.sh)"
 
-bash <(curl -fsSL https://raw.githubusercontent.com/greenbrian/xy.violator-467f46/master/setup.sh)
+## Notes
 
+Check if brew package exists
 
-    
-## Updating brew and packages
-
-    brew update
-    brew upgrade
+    brew search package
