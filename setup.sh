@@ -15,11 +15,28 @@ brew install vim
 brew install git
 brew install curl
 brew install python
+brew install jq
 brew cask install virtualbox
 brew cask install vagrant
 brew cask install vagrant-manager
 brew cask install iterm2
 brew install bash-completion
+brew cask install slack
+brew cask install the-unarchiver
+brew cask install skitch
+brew cask install vlc
+brew cask install 1password
+
+#   https://github.com/rgcr/m-cli
+#   Swiss Army Knife for macOS
+brew install m-cli
+
+
+#autohide dock
+m dock autohide YES
+
+#finder show extensions
+m finder showextensions YES
 
 cat << EOF > $HOME/.vimrc
 :set nocompatible
