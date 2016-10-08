@@ -4,7 +4,7 @@
 set -xv
 
 # update brew
-brew upate
+brew update
 brew upgrade
 
 # mac setup
