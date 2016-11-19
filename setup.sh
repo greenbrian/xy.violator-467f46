@@ -27,7 +27,6 @@ brew cask install slack
 brew cask install the-unarchiver
 brew cask install skitch
 brew cask install vlc
-brew cask install 1password
 brew install bash
 
 # https://github.com/rgcr/m-cli
@@ -93,10 +92,13 @@ defaults write com.apple.screencapture location ~/Desktop && killall SystemUISer
 defaults write com.apple.screencapture type -string "png"
 
 # Switch to using brew-installed bash as default shell
-if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
-  echo '/usr/local/bin/bash' | sudo tee -a /etc/shells;
-  chsh -s /usr/local/bin/bash;
-fi;
+#if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
+#  echo '/usr/local/bin/bash' | sudo tee -a /etc/shells;
+#  chsh -s /usr/local/bin/bash;
+#fi;
+#
+# gonna try zsh for a bit
+
 
 # Disable the “Are you sure you want to open this application?” dialog
 defaults write com.apple.LaunchServices LSQuarantine -bool false
