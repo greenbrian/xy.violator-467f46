@@ -11,6 +11,7 @@ brew upgrade
 
 brew cask install atom
 brew cask install whatsapp
+brew install wget
 brew install ack
 brew install vim
 brew install git
